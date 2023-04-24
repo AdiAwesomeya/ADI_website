@@ -1,0 +1,114 @@
+h1{
+    color: #FFC300;
+    margin-left: 720px;
+    font-family: monospace;
+    font-size: 40px;
+
+}
+iframe{
+    margin-top: 80px;
+    width: 100%;
+    height: 600px;
+
+
+}
+.contact h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #FFC300;
+    margin-bottom: 80px;
+}
+
+
+body{
+    background-color: #003566
+}
+
+.header{
+    background-color: #003F88;
+    display:flex;
+    justify-content: space-between;
+}
+
+.games{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;   
+    
+}
+p,h2{
+    color: #FFC300;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.game{
+    padding: 25px;
+}
+
+img{
+    border-radius: 50px;
+    
+    
+}
+
+
+
+.menu a{
+    margin: 20px
+    
+}
+.aboutme:hover a{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.projects:hover a{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menu{
+    margin-top: 25px;
+}
+
+a:link{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #FFD60A;
+}
+
+a:visited{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #FFC300;
+}
+
+.game{
+    position:relative
+}
+.game h5{
+    color: #FFD60A;
+   position:absolute;
+   top:50%;
+   left:50%;
+   transform: translate(-50%,-50%);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    opacity: 0;
+}
+
+.game:hover h5{
+    opacity:2;
+    font-size: 18px;
+}
+.game:hover img{
+    opacity: 0.2;
+   
+}
+
+.ADImg{
+    padding-bottom: 100px;
+}
+
+.bio h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #FFD60A 
+
+}
